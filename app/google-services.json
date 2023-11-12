@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870964772632",
+    "project_id": "jetback-notification",
+    "storage_bucket": "jetback-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870964772632:android:de949da5a76988d429286d",
+        "android_client_info": {
+          "package_name": "com.example.firebasecloudmessaging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD__4wf_YP7qbg6TGpl3Lc89AHcdqrVaRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
