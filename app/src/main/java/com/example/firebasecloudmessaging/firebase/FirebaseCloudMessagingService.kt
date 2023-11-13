@@ -42,17 +42,8 @@ class FirebaseCloudMessagingService : FirebaseMessagingService() {
             }
         }
 
-        //Log incoming message
-        Log.v("CloudMessage", "From ${message.from}")
-
-        //Log Data Payload
-        if (message.data.isNotEmpty()) {
-            Log.v("CloudMessage", "Message Data ${message.data}")
-        }
 
         message.data.let {
-            Log.v("CloudMessage", "Message Data Body ${it["body"]}")
-            Log.v("CloudMessage", "Message Data Title  ${it["title"]}")
             createNotification(it)
         }
 
