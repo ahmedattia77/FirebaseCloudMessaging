@@ -75,7 +75,11 @@ dependencies {
 
     implementation("androidx.datastore:datastore-preferences:1.0.0")
 
+    // notification permission
+    implementation("com.google.accompanist:accompanist-permissions:0.31.1-alpha")
 
+    val nav_version = "2.7.5"
+    implementation ("androidx.navigation:navigation-compose:$nav_version")
 
 
 }
